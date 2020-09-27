@@ -1,0 +1,17 @@
+@import 'libs/bootstrap-reboot.min';
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header__lang';
+@import 'blocks/promo';
+@import 'blocks/btn';
+@import 'blocks/task';
