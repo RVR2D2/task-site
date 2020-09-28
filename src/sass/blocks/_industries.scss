@@ -1,0 +1,47 @@
+.industries {
+    min-height: 890px;
+    padding-top: 75px;
+    padding-bottom: 60px;
+    background: url('../../img/industries__bg.png') center (center / cover) no-repeat;
+}
+
+.industries__wrapper {
+    &-title {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 900;
+        color: #ffffff; 
+    }
+    &-menu {
+        padding-top: 32px;
+    }
+    &-slider {
+        padding-top: 36px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.nav__link {
+    display: flex;
+    justify-content: space-between;
+    max-width: 843px;
+    height: 64px;
+    border: 1px solid #ffffff;
+    margin: 0 auto;
+}
+
+.menu__link-item {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    margin-right: 40px;
+    &:hover {
+        font-weight: 700;
+        color: #00c2f0;
+        cursor: pointer;
+    }
+}
